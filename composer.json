@@ -1,0 +1,15 @@
+{
+    "name": "edu/aderson",
+    "authors": [
+        {
+            "name": "Aderson Lucas",
+            "email": "adersonlm@gmail.com"
+        }
+    ],
+    "require": {
+        
+        "monolog/monolog": "1.0.*",
+        "mongodb/mongodb": "^1.1"
+        
+    }
+}
