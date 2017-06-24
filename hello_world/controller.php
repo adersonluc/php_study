@@ -12,4 +12,5 @@
     $array[] = $id['filho'];
   }
   print_r(json_encode($array));
+  //frescura
 ?>
