@@ -1,5 +1,6 @@
 <?php
-  $mongo = new MongoDB\client("mongodb://admin:admin@localhost:27017");
+  $mongo = new MongoDB\client("mongodb://{$config['user']}:{$config['pass']}@localhost:27017");
+  echo $mongo;
   $collection = $mongo->local->teste;
   $result = $collection->find();
   // $insert = $collection->insertOne([
